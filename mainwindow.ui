@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>426</width>
-    <height>309</height>
+    <height>337</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -35,10 +35,10 @@
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit"/>
+        <widget class="QLineEdit" name="addressLineEdit"/>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton">
+        <widget class="QPushButton" name="connectButton">
          <property name="text">
           <string>Connect</string>
          </property>
@@ -54,13 +54,13 @@
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout_3">
        <item>
-        <widget class="QPlainTextEdit" name="plainTextEdit"/>
+        <widget class="QPlainTextEdit" name="tXplainTextEdit"/>
        </item>
        <item>
-        <widget class="QPlainTextEdit" name="plainTextEdit_2"/>
+        <widget class="QPlainTextEdit" name="rXplainTextEdit"/>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton_4">
+        <widget class="QPushButton" name="textSendButton">
          <property name="text">
           <string>Send</string>
          </property>
@@ -82,7 +82,7 @@
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout_2">
        <item>
-        <widget class="QPushButton" name="pushButton_2">
+        <widget class="QPushButton" name="chooseFileButton">
          <property name="maximumSize">
           <size>
            <width>100</width>
@@ -95,7 +95,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton_3">
+        <widget class="QPushButton" name="fileSendButton">
          <property name="maximumSize">
           <size>
            <width>100</width>
@@ -112,6 +112,7 @@
     </item>
    </layout>
   </widget>
+  <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>
